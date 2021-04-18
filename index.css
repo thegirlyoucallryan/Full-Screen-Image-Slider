@@ -16,6 +16,10 @@ body,
   position: relative;
 }
 
+.hidden {
+  display: none;
+}
+
 .slide {
   background-size: cover;
   background-position: center;
@@ -56,13 +60,26 @@ body,
   font-size: 5rem;
   color: white;
 }
+.modal {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border: solid 1px rgb(196, 198, 231);
+  margin: 490px 0 400px auto;
+  padding: 22px;
+  border-radius: 9px;
+  z-index: 100;
+}
 
-span {
+.heading {
   margin: 400px 10px 1em auto;
   color: rgb(255, 255, 255) !important;
   font-family: "Bitter";
   font-weight: 700;
   letter-spacing: 1px;
+}
+.heading:hover {
+  cursor: pointer;
 }
 
 .arrow {
