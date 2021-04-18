@@ -63,17 +63,17 @@ body,
 .modal {
   position: absolute;
   color: rgb(0, 0, 0);
-  background-color: rgba(252, 243, 243, 0.5);
+  background-color: rgba(252, 243, 243, 0.7);
   font-size: 1.5em;
   font-family: "Bitter";
   border: solid 1px rgb(0, 0, 0);
-  margin: 490px 0 400px auto;
+  margin: 21em 5em 14em 32em;
   padding: 22px;
   z-index: 100;
 }
 
 .heading {
-  margin: 400px 10px 1em auto;
+  margin: 540px 10px 1em auto;
   padding: 10px;
   color: rgb(255, 255, 255) !important;
   border: 0.5px solid black;
