@@ -50,24 +50,30 @@
     </div>
     <div class="slide slide4">
         <div id="slide-content">
-          <span>Motion</span>
+          <span class="heading">Motion</span>
           <div class="modal hidden">
-            <p>A series of images taken and merged together to reflect the earths rotation in the stars...</p>
-            <p>Location: Celebration -Kissimmee, Florida</p>
+            <p>Still framing motion in the dark without blowing out the bright lights</p>
+            <p>Location: Somewhere in Florida</p>
           </div>
 
         </div>
         </div>
         <div class="slide slide5">
             <div id="slide-content">
-              <span>Low Light</span>
-
+              <span class="heading">Low Light</span>
+              <div class="modal hidden">
+                <p>An old truck captured with minimal ambient lighting</p>
+                <p>Location: Orlando, Florida</p>
+              </div>
             </div>
             </div>
             <div class="slide slide6">
                 <div id="slide-content">
-                  <span>Portraits</span>
-
+                  <span class="heading">Portraits</span>
+                  <div class="modal hidden">
+                    <p>Coolest Dog Ever AKA "The Monkey"</p>
+                    <p>Location: My Room, Florida</p>
+                    </div>
                 </div>
                 </div>
           <div id="arrow-right" class="arrow"></div>
@@ -124,13 +130,18 @@
 
     startSlide();
 
-    
-    let span = document.querySelector("span");
 
-span.addEventListener("click", function () {
-  let info = document.querySelector(".modal");
-  info.classList.toggle("hidden");
-});
+let heading = document.querySelectorAll("span");
+for(let i = 0; i < heading.length; i++){
+  let info = document.querySelectorAll(".modal");
+  for(let j = 0; j < info.length; j++)
+heading[i].addEventListener("click", function (e) {
+ 
+  info[j].classList.toggle("hidden");
+  
+ 
+})
+};
    
   </script>
 </html>

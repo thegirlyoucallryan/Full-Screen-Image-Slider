@@ -62,18 +62,22 @@ body,
 }
 .modal {
   position: absolute;
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
-  border: solid 1px rgb(196, 198, 231);
+  color: rgb(0, 0, 0);
+  background-color: rgba(252, 243, 243, 0.5);
+  font-size: 1.5em;
+  font-family: "Bitter";
+  border: solid 1px rgb(0, 0, 0);
   margin: 490px 0 400px auto;
   padding: 22px;
-  border-radius: 9px;
+
   z-index: 100;
 }
 
 .heading {
   margin: 400px 10px 1em auto;
+  padding: 10px;
   color: rgb(255, 255, 255) !important;
+  border: 0.5px solid black;
   font-family: "Bitter";
   font-weight: 700;
   letter-spacing: 1px;
